@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "focusotterpets",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authfocusotterpets18151642",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
